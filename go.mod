@@ -1,9 +1,10 @@
 module github.com/knadh/listmonk
 
-go 1.24.1
+go 1.24.4
 
 require (
 	github.com/Masterminds/sprig/v3 v3.3.0
+	github.com/altcha-org/altcha-lib-go v0.2.2
 	github.com/coreos/go-oidc/v3 v3.14.1
 	github.com/disintegration/imaging v1.6.2
 	github.com/emersion/go-message v0.18.2
@@ -28,6 +29,7 @@ require (
 	github.com/labstack/echo/v4 v4.13.4
 	github.com/lib/pq v1.10.9
 	github.com/paulbellamy/ratecounter v0.2.0
+	github.com/preslavrachev/gomjml v0.5.0
 	github.com/rhnvrm/simples3 v0.9.1
 	github.com/spf13/pflag v1.0.6
 	github.com/yuin/goldmark v1.7.12
@@ -44,7 +46,6 @@ require (
 	dario.cat/mergo v1.0.2 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.4.0 // indirect
-	github.com/altcha-org/altcha-lib-go v0.2.2 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/go-jose/go-jose/v4 v4.1.1 // indirect
 	github.com/go-viper/mapstructure/v2 v2.3.0 // indirect
